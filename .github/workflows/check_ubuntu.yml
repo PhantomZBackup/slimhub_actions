@@ -16,7 +16,7 @@ on:
 
 jobs:
   cleanup:
-    if: github.repository == 'rokibhasansagar/slimhub_actions'
+    # if: github.repository == 'rokibhasansagar/slimhub_actions'
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
