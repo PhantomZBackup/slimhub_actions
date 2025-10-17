@@ -11,7 +11,7 @@ on:
     - 'cleanup.sh'
     - '.github/workflows/check_ubuntu.yml'
   schedule:
-    - cron: '1 1 1 * *'
+    - cron: '1 1 1,15 * *'
   workflow_dispatch:
 
 jobs:
