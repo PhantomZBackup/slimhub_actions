@@ -29,6 +29,8 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-22.04, ubuntu-24.04]
+        include:
+          - os: ubuntu-slim
 
     steps:
       - uses: actions/checkout@v5
